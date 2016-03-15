@@ -7,6 +7,11 @@
                label="My Group">
         </group>
       </tab>
+      <tab id="tab_1" label="Projekt Zespolowy">
+        <group id="group_1" label="main">
+          
+        </group>
+      </tab>
     </tabs>
   </ribbon>
 </customUI>

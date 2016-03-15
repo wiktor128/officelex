@@ -19,6 +19,11 @@ namespace officelex
         {
         }
 
+        protected override Microsoft.Office.Core.IRibbonExtensibility CreateRibbonExtensibilityObject()
+        {
+            return new Ribbon();
+        }
+
         #region VSTO generated code
 
         /// <summary>
